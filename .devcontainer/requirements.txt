@@ -1,0 +1,19 @@
+
+matplotlib
+torchsummary
+pandas
+seaborn
+scapy
+numpy
+scikit-learn
+matplotlib
+tensorflow-cpu==1.15.0
+protobuf==3.20.1
+keras==2.1.6
+pytorch-cpu==1.10.2
+# autokeras
+# keras
+
+# pytorch-cpu
+# torchvision-cpu
+# torchvision
