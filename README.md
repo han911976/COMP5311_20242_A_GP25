@@ -6,16 +6,16 @@ subject: COMP5311
 # D-PACK Exp
 
 This is a tiny README for our project's codebase.
+Based on the papar [An Unsupervised Deep Learning Model for Early Network Traffic Anomaly Detection [IEEE]](https://ieeexplore.ieee.org/document/8990084)
 
-> https://github.com/VincentLee077/D-PACK
-> https://github.com/davidyslu/USTC-TFC2016
+> <https://github.com/VincentLee077/D-PACK>
+> <https://github.com/davidyslu/USTC-TFC2016>
 
 ### Remarks to the data
 
 > [!IMPORTANT]
 > Please note that the data in this repo is not the fullset that we test on the local machine.
 > For further testing please check the D-PACK repo and the link inside the data dir.
-
 
 ### Prerequisites
 
@@ -26,7 +26,7 @@ This is a tiny README for our project's codebase.
 
 #### Environment
 
-> https://stackoverflow.com/questions/78347799/why-my-anaconda-keeps-showing-error-while-loading-conda-entry-point
+> <https://stackoverflow.com/questions/78347799/why-my-anaconda-keeps-showing-error-while-loading-conda-entry-point>
 
 ```
 python -m pip uninstall anaconda-cloud-auth
@@ -52,6 +52,7 @@ pip install torchsummary  scikit-learn keras tensorflow seaborn
 At local, devcontainer with python 3.6
 
 requirement.txt
+
 ```
 cycler==0.11.0
 joblib==1.1.1
@@ -74,6 +75,7 @@ torchvision==0.1.6
 ```
 
 devcontainer.json
+
 ```
 {
   "name": "Python 3",
@@ -121,6 +123,7 @@ An early cutoff logic has added for testing the impact to the model.
 ### Appendix
 
 #### model description
+
 ```py
 CNN_AUTO(
   (conv1): Sequential(
