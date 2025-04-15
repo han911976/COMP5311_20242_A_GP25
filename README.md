@@ -1,5 +1,5 @@
 ---
-last_update: 2025-04-14
+last_update: 2025-04-15
 subject: COMP5311
 ---
 
@@ -10,11 +10,18 @@ This is a tiny README for our project's codebase.
 > https://github.com/VincentLee077/D-PACK
 > https://github.com/davidyslu/USTC-TFC2016
 
+### Remarks to the data
+
+> [!IMPORTANT]
+> Please note that the data in this repo is not the fullset that we test on the local machine.
+> For further testing please check the D-PACK repo and the link inside the data dir.
+
+
 ### Prerequisites
 
 #### Data
 
-`https://github.com/VincentLee077/D-PACK/tree/main/D-PACK/dataset`  
+`https://github.com/VincentLee077/D-PACK/tree/main/D-PACK/dataset`
 `https://drive.google.com/drive/u/0/folders/1LU9nm7ClK0IMOOTyJ_E4i3jVnOVy5bDM`
 
 #### Environment
@@ -30,7 +37,7 @@ conda install “anaconda-cloud-auth>0.5.0”
 conda install conda=24.11.1
 ```
 
-Please check how to cuda, a non cuda version of code has also included.  
+Please check how to cuda, a non cuda version of code has also included.
 The following command is ran on COMP UDS machine for your reference:
 
 ```cmd
@@ -138,7 +145,7 @@ CNN_AUTO(
 
 #### Spec
 
-CPU: Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz  
-RAM: 64GB  
-GPU: NVIDIA GeForce RTX 3070  
+CPU: Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz
+RAM: 64GB
+GPU: NVIDIA GeForce RTX 3070
 python 3.12
